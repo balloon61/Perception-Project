@@ -38,6 +38,25 @@ Fig 2. Original image
 ![output00](https://user-images.githubusercontent.com/55338365/198097987-0e01a798-9b18-4807-878f-6b7f360a0270.png)
 Fig 3. Historgram Equalization (top) original (mid) Historgram Equalization (bot) Adaptive Historgram Equalization
 
+
+## Line Detection
+### Description: 
+Detect Lane in the highway.
+
+![Lane_detection_AdobeExpress](https://user-images.githubusercontent.com/55338365/198093735-5015928b-d5dd-47e8-b88a-1b95e473738b.gif)
+
+Video 2. Line Detection
+
+
+## Steering Prediction
+### Description:
+Calculate the curvature of the lane in the highway and predict the steering direction.
+### Results:
+![turning_prediction_AdobeExpress (1)](https://user-images.githubusercontent.com/55338365/198093383-3f7910b5-3a58-44ab-a66c-7409b0dbcc66.gif)
+
+Video 3. Turning Prediction
+
+
 ## Stereo Vision 
 ### Description:
 implement the concept of Stereo Vision. given several different datasets, each of them contains 2 images of the same scenario but
@@ -71,22 +90,6 @@ Fig 6. Disparity
 Fig 7. Depth image
 
 
-## Line Detection
-### Description: 
-Detect Lane in the highway.
-
-![Lane_detection_AdobeExpress](https://user-images.githubusercontent.com/55338365/198093735-5015928b-d5dd-47e8-b88a-1b95e473738b.gif)
-
-Video 1. Line Detection
-
-
-# Turning Prediction
-### Description:
-Calculate the curvature of the lane in the highway and predict the steering direction.
-### Results:
-![turning_prediction_AdobeExpress (1)](https://user-images.githubusercontent.com/55338365/198093383-3f7910b5-3a58-44ab-a66c-7409b0dbcc66.gif)
-
-Video 2. Turning Prediction
 
 
 
