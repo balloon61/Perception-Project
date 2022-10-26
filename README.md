@@ -4,7 +4,7 @@ This repository includes several basic perception project
 ### Requirement:
 numpy, cv2, matplotlib
 
-## Coin Seperate
+## Coin Seperation
 ### Description:
 
 Calculate how many coins in this image.
