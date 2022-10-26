@@ -7,6 +7,8 @@ This repository includes several basic perception project
 
 Calculate how many coins in this image.
 ### Result
+![Q1image](https://user-images.githubusercontent.com/55338365/198095332-982d5242-2c4b-4faf-b03b-ec831095093b.png)
+
 
 ## Historgram Equalization
 ### Description:
