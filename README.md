@@ -4,6 +4,16 @@ This repository includes several basic perception project
 ### Requirement:
 numpy, cv2, matplotlib
 
+# AR Tag Detection:
+### Description:
+Detect AR tag in any direction.
+
+### Result:
+![AR_detect_AdobeExpress (1)](https://user-images.githubusercontent.com/55338365/198097203-46b5d08d-dc20-454f-ac1c-fef83a75893d.gif)
+
+Video 1. AR Tag detection
+
+
 ## Coin Seperation
 ### Description:
 
@@ -78,14 +88,7 @@ Calculate the curvature of the lane in the highway and predict the steering dire
 
 Video 2. Turning Prediction
 
-# AR Tag Detection:
-### Description:
-Detect AR tag in any direction.
 
-### Result:
-![AR_detect_AdobeExpress (1)](https://user-images.githubusercontent.com/55338365/198097203-46b5d08d-dc20-454f-ac1c-fef83a75893d.gif)
-
-Video 3. AR Tag detection
 
 
 
