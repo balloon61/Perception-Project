@@ -1,12 +1,14 @@
 # Perception-Project
 ### Description:
 This repository includes several basic perception project
+### Requirement: numpy, cv2, matplotlib
 
 ## Coin Seperate
 ### Description:
 
 Calculate how many coins in this image.
 ### Result:
+Image processing is shown as follows, and the number of coins will be published in your terminal when you executed the code.
 ![Q1image](https://user-images.githubusercontent.com/55338365/198095332-982d5242-2c4b-4faf-b03b-ec831095093b.png)![Screenshot from 2022-10-26 13-23-55](https://user-images.githubusercontent.com/55338365/198095670-84c265ac-78ff-4614-a638-a62f74dee052.png)
 
 Fig 1. (Left) Preprocessing image (Right) After processing image
