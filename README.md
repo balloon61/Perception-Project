@@ -1,7 +1,8 @@
 # Perception-Project
 ### Description:
 This repository includes several basic perception project
-### Requirement: numpy, cv2, matplotlib
+### Requirement:
+numpy, cv2, matplotlib
 
 ## Coin Seperate
 ### Description:
@@ -29,7 +30,36 @@ Fig 3. Historgram Equalization (top) original (mid) Historgram Equalization (bot
 
 ## Stereo Vision 
 ### Description:
+implement the concept of Stereo Vision. given several different datasets, each of them contains 2 images of the same scenario but
+taken from two different camera angles. By comparing the information about a scene from 2 vantage points, we can obtain the 3D information by examining the relative positions of objects.
+
+### Pipeline for creating a Stereo Vision System:
+1. Calibration: Get the F (fundamental matrix), K (intrinsic matrix), and E (essential matrix)
+2. Rectification: Apply the perspective transformation to make sure that the epipolar lines are horizontal for both images
+3. Correspondence: Get the disparity image which is the image that given where each pixels gives the disparity of the 3D points.
+4. Compute Depth Image: Directly use the disparity matrix to calculate the depth image.
+
 ### Results:
+### Rectification:
+
+
+![Screenshot from 2022-10-26 13-51-10](https://user-images.githubusercontent.com/55338365/198101309-44edcc94-1f52-437a-becf-470e98b8dace.png)
+Fig 4. Corresponding Eplliplolar line
+
+![Screenshot from 2022-10-26 13-50-59](https://user-images.githubusercontent.com/55338365/198101316-db664991-d101-4463-90cf-0cd7ae5a8274.png)
+
+Fig 5. Rectified
+### Correspondence:
+![Screenshot from 2022-10-26 13-50-27](https://user-images.githubusercontent.com/55338365/198100835-40d103f6-0735-42e4-849f-31c55b843493.png)
+
+Fig 6. Disparity
+
+
+### Depth Image:
+![Screenshot from 2022-10-26 13-52-40](https://user-images.githubusercontent.com/55338365/198101273-1ce7a01d-bfa6-479d-ae8b-9e7716c25ccc.png)
+
+Fig 7. Depth image
+
 
 ## Line Detection
 ### Description: 
